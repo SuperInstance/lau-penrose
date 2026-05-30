@@ -1,0 +1,12 @@
+[package]
+name = "lau-penrose"
+version = "0.1.0"
+edition = "2021"
+description = "THE correlation detection system — watches multiple rooms for signal correlations, creates automatic splines (connections), and compiles them into optimizations."
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+approx = "0.5"
