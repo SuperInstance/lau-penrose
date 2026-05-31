@@ -2,6 +2,8 @@
 name = "lau-penrose"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-penrose"
 description = "THE correlation detection system — watches multiple rooms for signal correlations, creates automatic splines (connections), and compiles them into optimizations."
 
 [dependencies]
